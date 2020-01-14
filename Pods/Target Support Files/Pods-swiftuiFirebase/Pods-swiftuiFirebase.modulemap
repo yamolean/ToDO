@@ -1,0 +1,6 @@
+framework module Pods_swiftuiFirebase {
+  umbrella header "Pods-swiftuiFirebase-umbrella.h"
+
+  export *
+  module * { export * }
+}

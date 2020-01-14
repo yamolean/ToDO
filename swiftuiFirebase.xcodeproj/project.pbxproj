@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187142F323CDDCF900185205 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187142F223CDDCF900185205 /* AppDelegate.swift */; };
+		187142F523CDDCF900185205 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187142F423CDDCF900185205 /* SceneDelegate.swift */; };
+		187142F723CDDCF900185205 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187142F623CDDCF900185205 /* ContentView.swift */; };
+		187142F923CDDCFB00185205 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187142F823CDDCFB00185205 /* Assets.xcassets */; };
+		187142FC23CDDCFB00185205 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187142FB23CDDCFB00185205 /* Preview Assets.xcassets */; };
+		187142FF23CDDCFB00185205 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187142FD23CDDCFB00185205 /* LaunchScreen.storyboard */; };
+		1871430723CDDEA000185205 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1871430623CDDEA000185205 /* GoogleService-Info.plist */; };
+		1871430923CDE53400185205 /* ToDOEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1871430823CDE53400185205 /* ToDOEditView.swift */; };
+		2756345F97E5FDBB618C28D6 /* Pods_swiftuiFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C65DD068D4DAB159932F31 /* Pods_swiftuiFirebase.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16C65DD068D4DAB159932F31 /* Pods_swiftuiFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swiftuiFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		187142EF23CDDCF900185205 /* swiftuiFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftuiFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187142F223CDDCF900185205 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		187142F423CDDCF900185205 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		187142F623CDDCF900185205 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		187142F823CDDCFB00185205 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187142FB23CDDCFB00185205 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		187142FE23CDDCFB00185205 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1871430023CDDCFB00185205 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1871430623CDDEA000185205 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1871430823CDE53400185205 /* ToDOEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDOEditView.swift; sourceTree = "<group>"; };
+		E941127A716BA15976CC3812 /* Pods-swiftuiFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftuiFirebase.debug.xcconfig"; path = "Target Support Files/Pods-swiftuiFirebase/Pods-swiftuiFirebase.debug.xcconfig"; sourceTree = "<group>"; };
+		EB9D8DDBD64F04BD6638B617 /* Pods-swiftuiFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swiftuiFirebase.release.xcconfig"; path = "Target Support Files/Pods-swiftuiFirebase/Pods-swiftuiFirebase.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187142EC23CDDCF900185205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2756345F97E5FDBB618C28D6 /* Pods_swiftuiFirebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187142E623CDDCF900185205 = {
+			isa = PBXGroup;
+			children = (
+				187142F123CDDCF900185205 /* swiftuiFirebase */,
+				187142F023CDDCF900185205 /* Products */,
+				1871430623CDDEA000185205 /* GoogleService-Info.plist */,
+				5046ADAD2D1ACF1BD6A6FEA2 /* Pods */,
+				8DEC00FE615F6F3C3E90A665 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		187142F023CDDCF900185205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187142EF23CDDCF900185205 /* swiftuiFirebase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187142F123CDDCF900185205 /* swiftuiFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				187142F223CDDCF900185205 /* AppDelegate.swift */,
+				187142F423CDDCF900185205 /* SceneDelegate.swift */,
+				187142F623CDDCF900185205 /* ContentView.swift */,
+				1871430823CDE53400185205 /* ToDOEditView.swift */,
+				187142F823CDDCFB00185205 /* Assets.xcassets */,
+				187142FD23CDDCFB00185205 /* LaunchScreen.storyboard */,
+				1871430023CDDCFB00185205 /* Info.plist */,
+				187142FA23CDDCFB00185205 /* Preview Content */,
+			);
+			path = swiftuiFirebase;
+			sourceTree = "<group>";
+		};
+		187142FA23CDDCFB00185205 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				187142FB23CDDCFB00185205 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5046ADAD2D1ACF1BD6A6FEA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E941127A716BA15976CC3812 /* Pods-swiftuiFirebase.debug.xcconfig */,
+				EB9D8DDBD64F04BD6638B617 /* Pods-swiftuiFirebase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DEC00FE615F6F3C3E90A665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16C65DD068D4DAB159932F31 /* Pods_swiftuiFirebase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187142EE23CDDCF900185205 /* swiftuiFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1871430323CDDCFB00185205 /* Build configuration list for PBXNativeTarget "swiftuiFirebase" */;
+			buildPhases = (
+				982A1BC91EF8B5F620BE9F26 /* [CP] Check Pods Manifest.lock */,
+				187142EB23CDDCF900185205 /* Sources */,
+				187142EC23CDDCF900185205 /* Frameworks */,
+				187142ED23CDDCF900185205 /* Resources */,
+				FD7031B7CA755FE10D2D87A4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = swiftuiFirebase;
+			productName = swiftuiFirebase;
+			productReference = 187142EF23CDDCF900185205 /* swiftuiFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187142E723CDDCF900185205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = yamolean;
+				TargetAttributes = {
+					187142EE23CDDCF900185205 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 187142EA23CDDCF900185205 /* Build configuration list for PBXProject "swiftuiFirebase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187142E623CDDCF900185205;
+			productRefGroup = 187142F023CDDCF900185205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187142EE23CDDCF900185205 /* swiftuiFirebase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187142ED23CDDCF900185205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187142FF23CDDCFB00185205 /* LaunchScreen.storyboard in Resources */,
+				1871430723CDDEA000185205 /* GoogleService-Info.plist in Resources */,
+				187142FC23CDDCFB00185205 /* Preview Assets.xcassets in Resources */,
+				187142F923CDDCFB00185205 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		982A1BC91EF8B5F620BE9F26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swiftuiFirebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD7031B7CA755FE10D2D87A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftuiFirebase/Pods-swiftuiFirebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-swiftuiFirebase/Pods-swiftuiFirebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-swiftuiFirebase/Pods-swiftuiFirebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187142EB23CDDCF900185205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1871430923CDE53400185205 /* ToDOEditView.swift in Sources */,
+				187142F323CDDCF900185205 /* AppDelegate.swift in Sources */,
+				187142F523CDDCF900185205 /* SceneDelegate.swift in Sources */,
+				187142F723CDDCF900185205 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		187142FD23CDDCFB00185205 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187142FE23CDDCFB00185205 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1871430123CDDCFB00185205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1871430223CDDCFB00185205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1871430423CDDCFB00185205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E941127A716BA15976CC3812 /* Pods-swiftuiFirebase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftuiFirebase/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = swiftuiFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yamolean.swiftuiFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1871430523CDDCFB00185205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9D8DDBD64F04BD6638B617 /* Pods-swiftuiFirebase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftuiFirebase/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = swiftuiFirebase/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yamolean.swiftuiFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187142EA23CDDCF900185205 /* Build configuration list for PBXProject "swiftuiFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1871430123CDDCFB00185205 /* Debug */,
+				1871430223CDDCFB00185205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1871430323CDDCFB00185205 /* Build configuration list for PBXNativeTarget "swiftuiFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1871430423CDDCFB00185205 /* Debug */,
+				1871430523CDDCFB00185205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187142E723CDDCF900185205 /* Project object */;
+}
